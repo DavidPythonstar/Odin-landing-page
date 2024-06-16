@@ -85,10 +85,11 @@ button
     margin-top: 30px;
     display: flex;
     text-align: center;
-    padding-left: 20%;
+    padding-left: 16%;
     padding-right: 20%;
     justify-content: space-between;
     flex: 1 1 auto;
+    gap: 2%;
 }
 
 .content img
@@ -106,6 +107,60 @@ button
 
 .content div:hover
 {
-    border: 2px solid lawngreen;
+    background-color: #1F2937;
+    color: white;
     border-radius: 20px;
+    font-weight: bold;
+
+}
+
+.qoute
+{
+    margin-top: 50px;
+    background-color: #E5E7EB;
+    padding: 5%;
+    padding-left: 20%;
+    padding-right: 20%;
+    
+    
+}
+
+.cus
+{
+    text-align: right;
+    font-weight: bolder;
+
+}
+.comm
+{
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 30px;
+}
+
+.contact
+{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    background: #3882f6;
+    padding: 2%;
+    margin-top: 4%;
+    border-radius: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 2%;
+}
+
+.contact button
+{
+    border:2px solid white;
+}
+
+footer
+{
+    text-align: center;
+    background-color:#1F2937 ;
+    padding: 50px;
+    color: white;
 }
